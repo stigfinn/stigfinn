@@ -1,159 +1,56 @@
-Index,Field Name,Alias,Type,Length
-0,fid,,Integer64,0
-1,OBJECTID,,Integer64,0
-2,ROUTE_ID,,String,38
-3,FROM_MEASURE,,Real,0
-4,TO_MEASURE,,Real,0
-5,Korfa_524,Antal körfält2/Körfältsantal,Integer,0
-6,F_ATK_Matplats,ATK-Mätplats (F),Integer,0
-7,B_ATK_Matplats,ATK-Mätplats (B),Integer,0
-8,F_Avser_28,BegrBruttovikt/Avser även fordonståg (F),Integer,0
-9,B_Avser_28,BegrBruttovikt/Avser även fordonståg (B),Integer,0
-10,F_Hogst_24,BegrBruttovikt/Högsta tillåtna bruttovikt (F),Real,0
-11,B_Hogst_24,BegrBruttovikt/Högsta tillåtna bruttovikt (B),Real,0
-12,Hogst_36,BegrFordBredd/Högsta tillåtna fordonsbredd,Real,0
-13,Hogst_46,BegrFordLängd/Högsta tillåtna fordonslängd,Real,0
-14,Hogst_55_30,BegrAxelBoggiTryck/Axel boggitrycks begränsning/Högsta tillåtna tryck,Real,0
-15,Typ_a_55_29,BegrAxelBoggiTryck/Axel boggitrycks begränsning/Typ av tryck,Integer,0
-16,Ident_191,Bro och tunnel/Identitet,String,3000
-17,Konst_190,Bro och tunnel/Konstruktion,Integer,0
-18,Langd_192,Bro och tunnel/Längd,Real,0
-19,Namn_193,Bro och tunnel/Namn,String,3000
-20,Brunn___Slamsugning,Brunn - Slamsugning,Integer,0
-21,L_Mater_301,Bullerskydd-väg/Materialtyp (L),Integer,0
-22,R_Mater_301,Bullerskydd-väg/Materialtyp (R),Integer,0
-23,Barig_64,Bärighet/Bärighetsklass,Integer,0
-24,Barig_504,Bärighet/Bärighetsklass vinterperiod,Integer,0
-25,C_Rekbilvagcykeltrafik,C-Rekommenderad bilväg för cykeltrafik,Integer,0
-26,F_Cirkulationsplats,Cirkulationsplats (F),Integer,0
-27,B_Cirkulationsplats,Cirkulationsplats (B),Integer,0
-28,Vagde_10379,Driftbidrag statligt/Vägdelsnr,Integer,0
-29,Vagnr_10370,Driftbidrag statligt/Vägnr,Integer,0
-30,entre_380,Driftområde/entreprenör,Integer,0
-31,drift_2,Driftområde/namn,Integer,0
-32,LageF_83,Farthinder/Läge,Integer,0
-33,TypAv_82,Farthinder/Typ,Integer,0
-34,FPV_dagliga_personresor,FPV dagliga personresor,Integer,0
-35,FPV_godstransporter,FPV godstransporter,Integer,0
-36,FPV_kollektivtrafik,FPV kollektivtrafik,Integer,0
-37,FPV_langvaga_personresor,FPV långväga personresor,Integer,0
-38,Framk_161,FramkFordonskomb/Framkomlighetsklass,Integer,0
-39,Klass_181,FunkVägklass/Klass,Integer,0
-40,FPV_k_309,Funktionellt-priovägnät/FPV-klass,Integer,0
-41,Funktionellt_priovagnat,Funktionellt prioriterat vägnät (FPV),Integer,0
-42,Farjeled,Färjeled,Integer,0
-43,Farje_139,Färjeled/Färjeledsnamn,String,3000
-44,F_ForbjudenFardriktning,Förbjuden färdriktning (F),Integer,0
-45,B_ForbjudenFardriktning,Förbjuden färdriktning (B),Integer,0
-46,F_ForbudTrafik,Förbud mot trafik (F),Integer,0
-47,B_ForbudTrafik,Förbud mot trafik (B),Integer,0
-48,F_Beskr_454,FörbudTrafik/Beskrivning (F),String,3000
-49,B_Beskr_454,FörbudTrafik/Beskrivning (B),String,3000
-50,Namn_130,Gatunamn/Namn,String,3000
-51,Typ_512,Gatutyp/Typ,Integer,0
-52,GCM_belyst,GCM-belyst,Integer,0
-53,GCM_passage,GCM-passage,Integer,0
-54,Passa_85,GCM-passage/Passagetyp,Integer,0
-55,Trafi_86,GCM-passage/Trafikanttyp,Integer,0
-56,L_Separ_500,GCM-separation/Separation (L),Integer,0
-57,R_Separ_500,GCM-separation/Separation (R),Integer,0
-58,GCM_t_502,GCM-vägtyp/GCM-typ,Integer,0
-59,L_Gagata,Gågata (L),Integer,0
-60,R_Gagata,Gågata (R),Integer,0
-61,L_Gangfartsomrade,Gångfartsområde (L),Integer,0
-62,R_Gangfartsomrade,Gångfartsområde (R),Integer,0
-63,F_Hogst_225,Hastighetsgräns/Högsta tillåtna hastighet (F),Integer,0
-64,B_Hogst_225,Hastighetsgräns/Högsta tillåtna hastighet (B),Integer,0
-65,Hallplats,Hållplats,Integer,0
-66,Fri_h_143,Höjdhinder45dm/Fri höjd,Real,0
-67,Hojdh_145,Höjdhinder45dm/Höjdhinderidentitet,String,3000
-68,Hojdh_144,Höjdhinder45dm/Höjdhindertyp,Integer,0
-69,F_Beskr_124,InskrTranspFarligtGods/Beskrivning (F),String,3000
-70,B_Beskr_124,InskrTranspFarligtGods/Beskrivning (B),String,3000
-71,L_Kalib_195,Kalibreringssträcka/Namn (L),String,3000
-72,R_Kalib_195,Kalibreringssträcka/Namn (R),String,3000
-73,Katastrofoverfart,Katastroföverfart,Integer,0
-74,F_Korfa_517,Kollektivkörfält/Körfält-Körbana (F),Integer,0
-75,B_Korfa_517,Kollektivkörfält/Körfält-Körbana (B),Integer,0
-76,Miljozon,Miljözon,Integer,0
-77,mittr_10,Mittremsa/bredd,Integer,0
-78,Motortrafikled,,Integer,0
-79,Motorvag,Motorväg,Integer,0
-80,F_Omkorningsforbud,Omkörningsförbud (F),Integer,0
-81,B_Omkorningsforbud,Omkörningsförbud (B),Integer,0
-82,Provisorisk_vag,Provisorisk väg,Integer,0
-83,L_P_ficka,Parkeringsficka (L),Integer,0
-84,R_P_ficka,Parkeringsficka (R),Integer,0
-85,M_P_ficka,Parkeringsficka (M),Integer,0
-86,Rastplats,,Integer,0
-87,Antal_122,Rastplats/Antal markerade parkeringsplatser för lastbil + släp,Integer,0
-88,Antal_119,Rastplats/Antal markerade parkeringsplatser för personbil,Integer,0
-89,Rastp_118,Rastplats/Rastplatsnamn,String,3000
-90,Resta_131,Rastplats/Restaurang,Integer,0
-91,Rekom_185,RekomVägFarligtGods/Rekommendation,Integer,0
-92,L_Raffe_396,Räffla/Räffeltyp (L),Integer,0
-93,R_Raffe_396,Räffla/Räffeltyp (R),Integer,0
-94,Slitl_152,Slitlager/Slitlagertyp,Integer,0
-95,F_Stigningsfalt,Stigningsfält (F),Integer,0
-96,B_Stigningsfalt,Stigningsfält (B),Integer,0
-97,Vagna_406,Strateg VN tyngretranspo/Vägnät för tyngre transporter,Integer,0
-98,TattbebyggtOmrade,Tättbebyggt område,Integer,0
-99,Tillg_169,Tillgänglighet/Tillgänglighetsklass,Integer,0
-100,Matar_121,Trafik/Mätårsperiod,Integer,0
-101,ADT_a_113,Trafik/ÅDT axelpar,Integer,0
-102,ADT_l_115,Trafik/ÅDT tunga fordon,Integer,0
-103,ADT_f_117,Trafik/ÅDT samtliga fordon,Integer,0
-104,ADT_l_122,Trafik/ÅDT lätta fordon 06-18,Integer,0
-105,ADT_l_123,Trafik/ÅDT lätta fordon 18-22,Integer,0
-106,ADT_l_124,Trafik/ÅDT lätta fordon 22-06,Integer,0
-107,ADT_m_125,Trafik/ÅDT medeltunga fordon 06-18,Integer,0
-108,ADT_m_126,Trafik/ÅDT medeltunga fordon 18-22,Integer,0
-109,ADT_m_127,Trafik/ÅDT medeltunga fordon 22-06,Integer,0
-110,ADT_t_128,Trafik/ÅDT tunga fordon 06-18,Integer,0
-111,ADT_t_129,Trafik/ÅDT tunga fordon 18-22,Integer,0
-112,ADT_t_130,Trafik/ÅDT tunga fordon 22-06,Integer,0
-113,Under_397,Underhållstyp väg/Underhållstyp,Integer,0
-114,Viltpassage_i_plan,Viltpassage i plan,Integer,0
-115,L_Uppsa_320,Viltstängsel/uppsättningsår (L),Integer,0
-116,R_Uppsa_320,Viltstängsel/uppsättningsår (R),Integer,0
-117,L_Vilts_319,Viltstängsel/viltstängselstyp (L),Integer,0
-118,R_Vilts_319,Viltstängsel/viltstängselstyp (R),Integer,0
-119,L_Viltuthopp,Viltuthopp (L),Integer,0
-120,R_Viltuthopp,Viltuthopp (R),Integer,0
-121,L_VVIS,VVIS (L),Integer,0
-122,R_VVIS,VVIS (R),Integer,0
-123,Bredd_156,Vägbredd/Bredd,Real,0
-124,Hinde_72,Väghinder/Hindertyp,Integer,0
-125,Passe_73,Väghinder/Passerbar bredd,Real,0
-126,Vagha_7,Väghållare/Väghållarnamn,String,3000
-127,Vagha_6,Väghållare/Väghållartyp,Integer,0
-128,Forva_9,Väghållare/Förvaltningsform,Integer,0
-129,Avvik_540,Väghållare/Avvikande underhållsansvar,Integer,0
-130,Kateg_380,Vägkategori/Kategori,Integer,0
-131,Europ_16,Vägnummer/Europaväg,Integer,0
-132,Huvud_13_1,Vägnummer/Huvudnummer (1),Integer,0
-133,Lanst_15,Vägnummer/Länstillhörighet,Integer,0
-134,Under_14,Vägnummer/Undernummer,Integer,0
-135,Vagtr_474,Vägtrafiknät/Nättyp,Integer,0
-136,korfa_52,Vägtyp/körfältsbeskrivning,Integer,0
-137,vagty_41,Vägtyp/typ,Integer,0
-138,Typ_369,Vägslag/Typ,Integer,0
-139,Vandm_176,Vändmöjlighet/Vändmöjlighetsklass,Integer,0
-140,Namn_132,Övrigt vägnamn/Namn,String,3000
-141,Namns_133,Övrigt vägnamn/Namnsättande organisation,Integer,0
-142,Kommu_141,KommunLanReg/Kommunkod,String,3000
-143,Vagkl_564,Vägunderhållsklass/Vägklass,Integer,0
-144,Kledn_417,Plankorsning väg-järnväg/Kontaktledning,Integer,0
-145,Kmaga_415,Plankorsning väg-järnväg/Kort magasin,Integer,0
-146,PlkId_410,Plankorsning väg-järnväg/Plankorsnings-Id,Integer,0
-147,Phojd_411,Plankorsning väg-järnväg/Portalhöjd,Real,0
-148,Vlutn_412,Plankorsning väg-järnväg/Vägprofil brant lutning,Integer,0
-149,Vkron_413,Plankorsning väg-järnväg/Vägprofil farligt vägkrön,Integer,0
-150,Vkurv_414,Plankorsning väg-järnväg/Vägprofil tvär kurva,Integer,0
-151,Vskyd_416,Plankorsning väg-järnväg/Vägskydd,Integer,0
-152,nyaar_576,Vägnybyggnad/Nybyggnadsår,Integer,0
-153,objnm_579,Vägnybyggnad/Objektnamn,String,3000
-154,omaar_566,Vägombyggnad/Ombyggnadsår,Integer,0
-155,objnm_573,Vägombyggnad/Objektnamn,String,3000
-156,Vagnummer_ROLE,,Integer,0
-157,SHAPE_Length,,Real,0
+name,value,description,column_name_lower,osm_key,osm_value
+Väghinder/Hindertyp,2,eftergivlig grind,hinde_72,barrier,yes
+Väghinder/Hindertyp,1,pollare,hinde_72,barrier,yes
+Väghinder/Hindertyp,3,ej öppningsbar grind eller cykelfålla,hinde_72,barrier,yes
+Väghinder/Hindertyp,4,låst grind eller bom,hinde_72,barrier,yes
+Väghinder/Hindertyp,5,betonghinder,hinde_72,barrier,yes
+Väghinder/Hindertyp,6,spårviddshinder,hinde_72,barrier,yes
+Väghinder/Hindertyp,99,övrigt,hinde_72,barrier,yes
+Tättbebyggt område,,,tattbebyggtomrade,built-up_area,yes
+Förbjuden färdriktning (B),,,b_forbjudenfardriktning,forbidden_direction,yes
+Förbjuden färdriktning (F),,,f_forbjudenfardriktning,forbidden_direction,-1
+C-Rekommenderad bilväg för cykeltrafik,,,c_rekbilvagcykeltrafik,recommended_road_bike,yes
+Väghållare/Väghållartyp,1,statlig,vagha_6,road_maintainer_type,state
+Väghållare/Väghållartyp,2,kommunal,vagha_6,road_maintainer_type,municipal
+Väghållare/Väghållartyp,3,enskild,vagha_6,road_maintainer_type,private
+Vägtrafiknät/Nättyp,1,bilnät,vagtr_474,road_network_type,car
+Vägtrafiknät/Nättyp,3,färjenät,vagtr_474,road_network_type,ferry
+Vägtrafiknät/Nättyp,4,gångnät,vagtr_474,road_network_type,foot
+Vägtrafiknät/Nättyp,2,cykelnät,vagtr_474,road_network_type,bicycle
+Vägtyp/typ,2,Motortrafikled,vagty_41,road_type,expressway
+Vägtyp/typ,3,Motortrafikled mötesfri,vagty_41,road_type,divided_expressway
+Vägtyp/typ,4,4-fältsväg,vagty_41,road_type,four-lane_road
+Vägtyp/typ,5,Vanlig väg,vagty_41,road_type,standard_road
+Vägtyp/typ,1,Motorväg,vagty_41,road_type,motorway
+Vägtyp/typ,6,Vanlig väg mötesfri,vagty_41,road_type,divided_standard_road
+Vägbredd/Bredd,,,bredd_156,road_width,3.6-6.5
+Vägbredd/Bredd,,,bredd_156,road_width,6.6-9.5
+Vägbredd/Bredd,,,bredd_156,road_width,9.6-13.5
+Vägbredd/Bredd,,,bredd_156,road_width,>13.5
+Vägbredd/Bredd,,,bredd_156,road_width,<3.6
+ATK-Mätplats (B),,,b_atk_matplats,speed_camera_backward,yes
+ATK-Mätplats (F),,,f_atk_matplats,speed_camera_forward,yes
+Hastighetsgräns/Högsta tillåtna hastighet (F),120,120,f_hogst_225,speed_limit,120
+Hastighetsgräns/Högsta tillåtna hastighet (F),90,90,f_hogst_225,speed_limit,90
+Hastighetsgräns/Högsta tillåtna hastighet (F),110,110,f_hogst_225,speed_limit,110
+Hastighetsgräns/Högsta tillåtna hastighet (F),70,70,f_hogst_225,speed_limit,70
+Hastighetsgräns/Högsta tillåtna hastighet (F),60,60,f_hogst_225,speed_limit,60
+Hastighetsgräns/Högsta tillåtna hastighet (F),50,50,f_hogst_225,speed_limit,50
+Hastighetsgräns/Högsta tillåtna hastighet (F),5,gångfart,f_hogst_225,speed_limit,5
+Hastighetsgräns/Högsta tillåtna hastighet (F),40,40,f_hogst_225,speed_limit,40
+Hastighetsgräns/Högsta tillåtna hastighet (F),30,30,f_hogst_225,speed_limit,30
+Hastighetsgräns/Högsta tillåtna hastighet (F),20,20,f_hogst_225,speed_limit,20
+Hastighetsgräns/Högsta tillåtna hastighet (F),100,100,f_hogst_225,speed_limit,100
+Hastighetsgräns/Högsta tillåtna hastighet (F),80,80,f_hogst_225,speed_limit,80
+Driftbidrag statligt/Vägnr,,,vagnr_10370,state_maintenance_grant,yes
+Slitlager/Slitlagertyp,1,belagd,slitl_152,surface,paved
+Väghållare/Väghållarnamn,,,vagha_7,sveaskog,yes
+Trafik/ÅDT samtliga fordon,,,adt_f_117,traffic_all_vehicles,251-500
+Trafik/ÅDT samtliga fordon,,,adt_f_117,traffic_all_vehicles,501-1000
+Trafik/ÅDT samtliga fordon,,,adt_f_117,traffic_all_vehicles,1001-2000
+Trafik/ÅDT samtliga fordon,,,adt_f_117,traffic_all_vehicles,2001-4000
+Trafik/ÅDT samtliga fordon,,,adt_f_117,traffic_all_vehicles,4001-8000
+Trafik/ÅDT samtliga fordon,,,adt_f_117,traffic_all_vehicles,8001-12000
+Trafik/ÅDT samtliga fordon,,,adt_f_117,traffic_all_vehicles,12001-16000
+Trafik/ÅDT samtliga fordon,,,adt_f_117,traffic_all_vehicles,>16000
+Trafik/ÅDT samtliga fordon,,,adt_f_117,traffic_all_vehicles,<251
