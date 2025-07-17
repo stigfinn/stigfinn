@@ -1,0 +1,116 @@
+---lookupversion:10
+---minorversion:13
+
+---context:way
+
+bicycle;0001245560 yes
+
+barrier;0000000001 yes
+
+built-up_area;0000000001 yes
+
+forbidden_direction;0000000001 yes
+forbidden_direction;0000000001 -1
+
+recommended_road_bike;0000000001 yes
+
+road_maintainer_type;0000000001 private
+road_maintainer_type;0000000001 municipal
+road_maintainer_type;0000000001 state
+
+road_network_type;0000000001 car
+road_network_type;0000000001 ferry
+road_network_type;0000000001 foot
+road_network_type;0000000001 bicycle
+
+road_type;0000000001 divided_expressway
+road_type;0000000001 expressway
+road_type;0000000001 motorway
+road_type;0000000001 divided_standard_road
+road_type;0000000001 standard_road
+road_type;0000000001 four-lane_road
+
+road_width;0000000001 9.6-13.5
+road_width;0000000001 3.6-6.5
+road_width;0000000001 6.6-9.5
+road_width;0000000001 >13.5
+road_width;0000000001 <3.6
+
+speed_camera_backward;0000000001 yes
+speed_camera_forward;0000000001 yes
+
+speed_limit;0000000001 40
+speed_limit;0000000001 30
+speed_limit;0000000001 20
+speed_limit;0000000001 100
+speed_limit;0000000001 80
+speed_limit;0000000001 60
+speed_limit;0000000001 70
+speed_limit;0000000001 50
+speed_limit;0000000001 5
+speed_limit;0000000001 110
+speed_limit;0000000001 90
+speed_limit;0000000001 120
+
+state_maintenance_grant;0000000001 yes
+
+surface;0000000001 paved
+
+sveaskog;0000000001 yes
+
+traffic_all_vehicles;0000000001 1001-2000
+traffic_all_vehicles;0000000001 501-1000
+traffic_all_vehicles;0000000001 251-500
+traffic_all_vehicles;0000000001 <251
+traffic_all_vehicles;0000000001 >16000
+traffic_all_vehicles;0000000001 8001-12000
+traffic_all_vehicles;0000000001 12001-16000
+traffic_all_vehicles;0000000001 4001-8000
+traffic_all_vehicles;0000000001 2001-4000
+
+dummy;0000000001 yes
+dummy;0000000001 yes
+dummy;0000000001 yes
+dummy;0000000001 yes
+dummy;0000000001 yes
+dummy;0000000001 yes
+dummy;0000000001 yes
+dummy;0000000001 yes
+dummy;0000000001 yes
+dummy;0000000001 yes
+
+estimated_noise_class;0000000068 1
+estimated_noise_class;0000000069 2
+estimated_noise_class;0000000070 3
+estimated_noise_class;0000000071 4
+estimated_noise_class;0000000072 5
+estimated_noise_class;0000000073 6
+
+estimated_river_class;0000000075 1
+estimated_river_class;0000000076 2
+estimated_river_class;0000000077 3
+estimated_river_class;0000000078 4
+estimated_river_class;0000000079 5
+estimated_river_class;0000000080 6
+
+estimated_forest_class;0000000082 1
+estimated_forest_class;0000000083 2
+estimated_forest_class;0000000084 3
+estimated_forest_class;0000000085 4
+estimated_forest_class;0000000086 5
+estimated_forest_class;0000000087 6
+
+estimated_town_class;0000000089 1
+estimated_town_class;0000000090 2
+estimated_town_class;0000000091 3
+estimated_town_class;0000000092 4
+estimated_town_class;0000000093 5
+estimated_town_class;0000000094 6
+
+ ---context:node
+
+dummy_node;0000000001 yes
+
+
+
+
